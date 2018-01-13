@@ -1,0 +1,113 @@
+@CHARSET "ISO-8859-1";
+
+.main-footer {
+	margin-bottom: 8px;
+	margin-left: 2%;
+	margin-right: 1.5%;
+}
+
+.right-side>.content-header>h1>small {
+	font-size: 13px;
+}
+
+.thead-inverse {
+	color: #fff;
+	background-color: #373a3c;
+}
+
+.pagination >li{
+	cursor: pointer;
+}
+.pagination {
+	display: block;
+	margin: -20px 0;
+}
+
+span.pagebanner {
+	display: block;
+	/*     float: left; */
+	margin: 0 0 0 10px;
+	padding: 0 4px 0 0;
+	position: relative;
+	font-size: 12px;
+	width: 180px;
+}
+
+div.pagebanner {
+	display: block;
+	/*     float: left; */
+	margin: 0 0 0 10px;
+	padding: 0 4px 0 0;
+	position: relative;
+	font-size: 12px;
+/* 	cursor: pointer; */
+}
+
+.exportlinks a {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.exportlinks {
+	background-repeat: no-repeat;
+	background-position: 1px 2px;
+}
+
+.action-head {
+	width: 15%;
+	text-align: center;
+}
+
+.action-btn {
+	text-align: center;
+}
+
+.action-btn>.btn {
+	margin: 1px;
+}
+
+th>a {
+	color: #fff;
+}
+
+th.sortable a {
+	position: relative;
+	cursor: pointer;
+}
+
+th.order1 a {
+	position: relative;
+	cursor: pointer;
+}
+
+th.order2 a {
+	position: relative;
+	cursor: pointer;
+}
+
+th.sortable a:before {
+	content: "\f0dc";
+	font-family : FontAwesome;
+	left: -5px;
+	position: relative;
+	top: 0;
+	float: right;
+}
+
+th.order2 a:before {
+	content: "\f0d8";
+	font-family: FontAwesome;
+	left: -5px;
+	position: relative;
+	top: 0;
+	float: right;
+}
+
+th.order1 a:before {
+	content: "\f0d7";
+	font-family: FontAwesome;
+	left: -5px;
+	position: relative;
+	top: 0;
+	float: right;
+}
